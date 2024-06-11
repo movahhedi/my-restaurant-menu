@@ -1,0 +1,17 @@
+{
+	"name": "my-restaurant-menu",
+	"version": "0.1.0",
+	"description": "",
+	"author": "Shahab",
+	"license": "MIT",
+	"type": "module",
+	"main": "src/index.html",
+	"scripts": {},
+	"devDependencies": {
+		"lestin": "^0.1.11",
+		"sass": "^1.77.4",
+		"terser": "^5.31.1",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.13"
+	}
+}
