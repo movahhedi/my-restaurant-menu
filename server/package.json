@@ -1,0 +1,21 @@
+{
+	"name": "my-restaurant-menu-client",
+	"version": "0.0.0",
+	"description": "",
+	"author": "Shahab",
+	"license": "MIT",
+	"type": "module",
+	"main": "api/index.ts",
+	"scripts": {},
+	"devDependencies": {
+		"@types/node": "^20.14.2",
+		"terser": "^5.31.1",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.13"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.11.3",
+		"hono": "^4.4.6",
+		"zod": "^3.23.8"
+	}
+}
