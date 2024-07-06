@@ -1,11 +1,13 @@
 import { createPool } from "mysql2";
 import { Generated, Kysely, MysqlDialect, PostgresDialect } from "kysely";
+import { config } from "./Config";
 
 const dialect = new MysqlDialect({
 	pool: createPool({
-		database: "restaurant",
-		host: "localhost",
-		user: "root",
+		database: config.db.name,
+		host: config.db.host,
+		user: config.db.user,
+		password: config.db.pass,
 	}),
 });
 

@@ -1,8 +1,7 @@
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { menuHono } from "./MenuItem";
-
-
+import { config } from "./Config";
 
 const app = new Hono();
 
@@ -28,7 +27,7 @@ app.get("/", (c) => {
 
 serve({
 	fetch: app.fetch,
-	port: 3000,
+	port: config.port,
 });
 
 export default app;

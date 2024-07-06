@@ -1,5 +1,7 @@
 import { menuItems } from "./MenuData";
 
+console.log("Vite env", import.meta.env.VITE_API_URL);
+
 // interface IMenuItem_Props {
 // 	name: string;
 // 	price: string;
